@@ -1,6 +1,6 @@
-<!-- Déclaration d'un variable number avec un calcul à l'intérieur -->
+<!-- Déclaration d'une variable -->
 <?php
-$number=140+30/2;
+$number=140;
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -9,9 +9,11 @@ $number=140+30/2;
   <title>PHP1Ex6</title>
 </head>
 <body>
-  <!-- Déclaration d'echo pour afficher la variable sur l'index. -->
-  <?php
-  echo$number;
-  ?>
+  <p>
+    <?php
+    //Déclaration d'echo pour afficher la variable sur l'index et le calcul à la suite
+    echo($number+30)/2;
+    ?>
+  </p>
 </body>
 </html>
